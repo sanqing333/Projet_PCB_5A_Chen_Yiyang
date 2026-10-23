@@ -5,6 +5,231 @@
 	(uuid "4cd5a3a6-441a-4d49-b89e-ac57047910ed")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -5293,7 +5518,7 @@
 	)
 	(text "静电保护装置"
 		(exclude_from_sim no)
-		(at 259.588 77.724 0)
+		(at 237.49 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,7 +5548,7 @@
 	)
 	(text "Protections"
 		(exclude_from_sim no)
-		(at 271.018 77.724 0)
+		(at 239.522 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,6 +6001,16 @@
 			(type default)
 		)
 		(uuid "0fd3b633-8cba-4490-8e06-1ad088a4780a")
+	)
+	(wire
+		(pts
+			(xy 257.81 72.39) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1078828b-21ea-492e-ac20-481df51a4563")
 	)
 	(wire
 		(pts
@@ -6519,6 +6754,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 74.93) (xy 269.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832202e7-a3f4-458d-bbbe-5adf8e85bb6e")
+	)
+	(wire
+		(pts
 			(xy 158.75 97.79) (xy 170.18 97.79)
 		)
 		(stroke
@@ -6619,7 +6864,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 86.36) (xy 45.72 86.36)
+			(xy 33.02 86.36) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6976,6 +7221,16 @@
 			(type default)
 		)
 		(uuid "d1a5241c-92db-4de8-a861-ba12dd7d574f")
+	)
+	(wire
+		(pts
+			(xy 257.81 69.85) (xy 269.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ca0df3-ed9a-4782-84da-6e144d4a6ada")
 	)
 	(wire
 		(pts
@@ -7348,12 +7603,12 @@
 		(uuid "1f947f32-f916-40b5-abea-da78c230889f")
 	)
 	(label "JTCK-SWCLK"
-		(at 35.56 86.36 0)
+		(at 48.26 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2003a948-2c11-47c2-b0de-44ca7878ba3e")
 	)
@@ -7448,12 +7703,12 @@
 		(uuid "3919773b-d74b-4cd4-a8e0-7931d963a0a9")
 	)
 	(label "RESET_STM_N"
-		(at 35.56 88.9 0)
+		(at 48.26 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3e3b41d7-b46c-42a9-b354-56b32067b532")
 	)
@@ -7587,6 +7842,16 @@
 		)
 		(uuid "88e35f20-1579-451d-a3fa-c7ade29bf92d")
 	)
+	(label "UART4_RX"
+		(at 257.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b8253e7-66f2-484b-9233-3d1a97f98359")
+	)
 	(label "SPI1_NSS"
 		(at 27.94 142.24 0)
 		(effects
@@ -7667,13 +7932,23 @@
 		)
 		(uuid "bb15ab75-a5f7-4bc7-8d9a-e501c027ccca")
 	)
-	(label "JTMS-SWDIO"
-		(at 36.83 81.28 0)
+	(label "UART4_TX"
+		(at 257.81 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "bbcd6968-6db3-4966-a661-e98de471d4f0")
+	)
+	(label "JTMS-SWDIO"
+		(at 49.53 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "be82a75c-8dd0-4bbd-9df8-bd3e8e5dc66e")
 	)
@@ -12103,6 +12378,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 274.32 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0cfe83-83c7-4aab-ba29-f61f66a54329")
+		(property "Reference" "J4"
+			(at 275.59 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 275.59 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 274.32 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 274.32 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97566e74-3169-441c-8157-0ff3feb1f6b0")
+		)
+		(pin "1"
+			(uuid "d24b384a-b42a-42a9-8e90-2e56e1b5f26d")
+		)
+		(pin "3"
+			(uuid "fdfb3795-ad41-47e6-a546-7e62e51197f7")
+		)
+		(instances
+			(project "Projet_PCBPolytech_git"
+				(path "/4cd5a3a6-441a-4d49-b89e-ac57047910ed"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 36.83 0)
 		(unit 1)
@@ -14616,6 +14976,84 @@
 			(project "Projet_PCBPolytech_git"
 				(path "/4cd5a3a6-441a-4d49-b89e-ac57047910ed"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6595899-ba4f-493c-a26b-3a0da24fba1e")
+		(property "Reference" "#PWR053"
+			(at 265.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45e2e365-0ff4-4dc2-9da0-985e79cfc14f")
+		)
+		(instances
+			(project "Projet_PCBPolytech_git"
+				(path "/4cd5a3a6-441a-4d49-b89e-ac57047910ed"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
