@@ -5586,7 +5586,7 @@
 		)
 		(uuid "ba157192-7ae0-4f7b-b873-e8f673058e2a")
 	)
-	(text "usb <-> urat 模块\n"
+	(text "usb <-> uart 模块\n"
 		(exclude_from_sim no)
 		(at 263.906 65.786 0)
 		(effects
